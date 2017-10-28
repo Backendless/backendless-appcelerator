@@ -18,9 +18,9 @@
  
 ````
 
-- require the path in your code once
+- include the patch to your code before using Backendless
 ````
-//index file of your app
+//index.js file of your app
 ...
 
 require('.../path-to/backendless-appcelerator.js')
