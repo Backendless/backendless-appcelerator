@@ -1,14 +1,14 @@
 # Backendless JS-SDK Patch for [Appcelerator](http://www.appcelerator.com/)
 
-###Patched Items:
+### Patched Items:
 
 - Add polyfill for Promises
 - Add Backendless namespace to global scope
-- Override XmlHttpRequest by `Ti.Network.createHTTPClient`
-- fix File Upload with Backendless API
+- Override Backendless.XmlHttpRequest by `Ti.Network.createHTTPClient`
+- fix File Upload
 
 
-##How to use:
+## How to use:
 
 - put this patch next to JS-SDK file
 ````
