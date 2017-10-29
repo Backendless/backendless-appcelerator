@@ -2,15 +2,15 @@
 
 ### Patch includes:
 
-- Polyfill for Promise
-- Backendless namespace in global scope
-- Override Backendless.XmlHttpRequest
-- Correct File Upload
+- [Polyfill for Promise](#polyfill-for-promise)
+- [Backendless namespace in global scope](#backendless-namespace-in-global-scope)
+- [Override Backendless.XmlHttpRequest](#override-backendlessxmlhttprequest)
+- [Correct File Upload](#correct-file-upload)
 
 
 ## How to use:
 
-- put this patch next to JS-SDK file
+- put this patch next to [JS-SDK file](https://github.com/Backendless/JS-SDK)
 ````
 -|
  |-backendless.js
@@ -92,3 +92,21 @@ function uploadImgFileFromPhotoGallery() {
 }
 
 ```
+
+
+#### Below are a few links to help with the development:
+
+<pre><code>Backendless Documentation: <a href="https://backendless.com/products/documentation/">https://backendless.com/products/documentation/</a>
+Support Home:    <a href="slack.backendless.com">slack.backendless.com</a>
+Slack Channel:   <a href="http://support.backendless.com">http://support.backendless.com</a>
+Blog:            <a href="http://backendless.com/blog">http://backendless.com/blog</a>
+YouTube Channel: <a href="http://youtube.com/backendless">http://youtube.com/backendless</a>
+Facebook:        <a href="http://facebook.com/backendless">http://facebook.com/backendless</a>
+Twitter:         <a href="http://twitter.com/backendless">http://twitter.com/backendless</a>
+</code></pre>
+
+<p>We would love to hear from you. Please let us know about your experiences using Backendless. You can reach us through the support page at <a href="http://support.backendless.com">http://support.backendless.com</a> or email: support@backendless.com</p>
+
+<p>Thank you and endlessly happy coding! <br>
+The Backendless Team</p>
+
