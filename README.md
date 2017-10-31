@@ -23,7 +23,7 @@
 //index.js file of your app
 ...
 
-require('.../path-to/backendless-appcelerator.js')
+require('.../path-to/backendless-appcelerator')
 
 Backendless.initApp(...)
 
